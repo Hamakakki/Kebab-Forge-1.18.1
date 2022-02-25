@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#X"
+
+  ],
+  "key": {
+    "X": {
+      "item": "forgekebab:ristikko_cutter"
+    },
+    "#": {
+      "item": "minecraft:baked_potato"
+    }
+  },
+  "result": {
+    "item": "forgekebab:ristikkoperunat"
+  }
+}

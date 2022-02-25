@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#XX",
+    "#XX"
+  ],
+  "key": {
+    "X": {
+      "item": "forgekebab:ristikkoperunat"
+    },
+    "#": {
+      "item": "forgekebab:kebab_suikaleet"
+    }
+  },
+  "result": {
+    "item": "forgekebab:ristikko_kebab"
+  }
+}

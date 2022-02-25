@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+
+  ],
+  "key": {
+    "X": {
+      "item": "forgekebab:kebab_suikaleet"
+    },
+    "#": {
+      "item": "forgekebab:pita"
+    }
+  },
+  "result": {
+    "item": "forgekebab:rulla_kebab"
+  }
+}

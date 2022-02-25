@@ -1,0 +1,16 @@
+{
+  "item.forgekebab.kebab_suikaleet" : "Kebab Suikaleet",
+  "item.forgekebab.kebab_potkilo" : "Kebab Pötkilö",
+  "block.forgekebab.kebab_kuutio" : "Kebab Kuutio",
+  "block.forgekebab.kebab_paistin" : "Kebab Paistin",
+  "item.forgekebab.rulla_kebab" : "Rulla Kebab",
+  "item.forgekebab.ristikko_kebab" : "Kebab Ristikkoperunoilla",
+  "item.forgekebab.ranskalais_kebab" : "Kebab Ranskalaisilla",
+  "item.forgekebab.ranskalais_cutter" : "Ranskalais Leikkuri",
+  "item.forgekebab.ranskalaiset" : "Ranskalaiset",
+  "item.forgekebab.ristikko_perunat" : "Ristikko Perunat",
+  "item.forgekebab.pita" : "Pita",
+  "item.forgekebab.ristikko_cutter" : "Ristikkoperuna leikkuri",
+
+  "itemGroup.kebabtab": "Kebab stuff"
+}
