@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:diamond_chestplate"
+  },
+  "addition": {
+    "item": "forgekebab:dense_kebab"
+  },
+  "result": {
+    "item": "forgekebab:kebabnite_rinnat"
+  }
+}

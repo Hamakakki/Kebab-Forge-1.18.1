@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "forgekebab:block/kebab_kukka"
+  }
+
+}

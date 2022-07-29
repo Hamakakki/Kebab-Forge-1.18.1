@@ -8,9 +8,37 @@
   "item.forgekebab.ranskalais_kebab" : "Kebab Ranskalaisilla",
   "item.forgekebab.ranskalais_cutter" : "Ranskalais Leikkuri",
   "item.forgekebab.ranskalaiset" : "Ranskalaiset",
-  "item.forgekebab.ristikko_perunat" : "Ristikko Perunat",
+  "item.forgekebab.ristikkoperunat" : "Ristikko Perunat",
   "item.forgekebab.pita" : "Pita",
+  "item.forgekebab.ak" : "AK-50u",
+  "item.forgekebab.kebab_elain_spawn_egg" : "Kebab Eläin Muna",
   "item.forgekebab.ristikko_cutter" : "Ristikkoperuna leikkuri",
+  "item.forgekebab.hakkaus_kebab" : "Hakkaus Kebab",
+  "item.forgekebab.aseistettu_kebab" : "Aseistettu Kebab",
+  "item.forgekebab.kebabnite_lakki" : "Kebabnite lakki",
+  "item.forgekebab.kebabnite_rinnat" : "Kebabnite rinnat",
+  "item.forgekebab.kebabnite_housut" : "Kebabnite housut",
+  "item.forgekebab.kebabnite_kengat" : "Kebabnite kengät",
+  "block.forgekebab.kebab_kukka" : "Kebab Kukka",
+  "block.forgekebab.harhamuta" : "Harhamuta",
+  "block.forgekebab.potted_kebab_kukka" : "Potted Kebab Kukka",
 
-  "itemGroup.kebabtab": "Kebab stuff"
+
+
+
+  "itemGroup.kebabtab": "Kebab stuff",
+  "itemGroup.muut_tab": "Kebab stuff",
+
+  "tooltip.forgekebab.craftingitems.tooltip.shift": "Tälläisiä työkaluja käytetään valmistamaan erilaisia kebab reseptejä.",
+  "tooltip.forgekebab.craftingitems.tooltip": "Paina §eSHIFT§r nähdäksesi enemmän.",
+
+  "block.tutorialmod.kivi_ovi": "Kivi Ovi",
+  "block.tutorialmod.dirt_ovi": "Dirt Ovi",
+  "block.tutorialmod.puu_ovi": "Puu Ovi",
+  "block.tutorialmod.kivi_trapdoor": "Kivi Trapdoor",
+  "block.tutorialmod.dirt_trapdoor": "Dirt Trapdoor",
+  "block.tutorialmod.puu_trapdoor": "Puu Trapdoor",
+
+  "enchantment.forgekebab.safkaa": "Safkaus",
+  "enchantment.forgekebab.pako": "pako"
 }

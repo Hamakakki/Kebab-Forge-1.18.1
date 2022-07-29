@@ -1,5 +1,12 @@
 {
   "variants": {
-    "": { "model":  "forgekebab:block/kebab_paistin"}
+    "facing=north": { "model": "forgekebab:block/kebab_paistin" },
+    "facing=east": { "model": "forgekebab:block/kebab_paistin", "y": 90 },
+    "facing=south": { "model": "forgekebab:block/kebab_paistin", "y": 180 },
+    "facing=west": { "model": "forgekebab:block/kebab_paistin", "y": 270 }
   }
 }
+  /*  "facing=east, lit=true": {
+      "model": "forgekebab:block/kebab_paistin_taysi",
+      "y": 90
+*/

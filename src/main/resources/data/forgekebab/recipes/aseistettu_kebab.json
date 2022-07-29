@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_sword"
+  },
+  "addition": {
+    "item": "forgekebab:dense_kebab"
+  },
+  "result": {
+    "item": "forgekebab:aseistettu_kebab"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_pickaxe"
+  },
+  "addition": {
+    "item": "forgekebab:dense_kebab"
+  },
+  "result": {
+    "item": "forgekebab:hakkaus_kebab"
+  }
+}

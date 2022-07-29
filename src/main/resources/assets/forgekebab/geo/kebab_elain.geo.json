@@ -1,0 +1,53 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.kebab_elain",
+				"texture_width": 256,
+				"texture_height": 256,
+				"visible_bounds_width": 10,
+				"visible_bounds_height": 5.5,
+				"visible_bounds_offset": [0, 2.25, 0]
+			},
+			"bones": [
+				{
+					"name": "body",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-20, 3, -7], "size": [4, 14, 14], "uv": [116, 40]},
+						{"origin": [-16, 1, -9], "size": [16, 18, 18], "uv": [54, 98]},
+						{"origin": [0, 0, -10], "size": [50, 20, 20], "uv": [0, 0]},
+						{"origin": [50, 1, -9], "size": [10, 18, 18], "uv": [0, 116]}
+					]
+				},
+				{
+					"name": "head",
+					"pivot": [56.625, 10.625, 1],
+					"cubes": [
+						{"origin": [51, 39, -8], "size": [22, 22, 18], "uv": [0, 40]},
+						{"origin": [51, 22, -8], "size": [18, 17, 18], "uv": [0, 80]},
+						{"origin": [51, 4, -8], "size": [18, 18, 18], "uv": [62, 62]},
+						{"origin": [73, 52, -2], "size": [7, 2, 6], "uv": [52, 91]}
+					]
+				},
+				{
+					"name": "uppermouth",
+					"parent": "head",
+					"pivot": [72, 49.5, 1],
+					"cubes": [
+						{"origin": [73, 47, -4], "size": [10, 5, 10], "uv": [196, 166]}
+					]
+				},
+				{
+					"name": "lowermouth",
+					"parent": "head",
+					"pivot": [73, 44.5, 1],
+					"cubes": [
+						{"origin": [73, 42, -4], "size": [10, 5, 10], "uv": [120, 0]}
+					]
+				}
+			]
+		}
+	]
+}

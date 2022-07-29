@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+
+  ],
+  "key": {
+    "#": {
+      "item": "forgekebab:kebab_kuutio"
+    }
+  },
+  "result": {
+    "item": "forgekebab:dense_kebab"
+  }
+}
