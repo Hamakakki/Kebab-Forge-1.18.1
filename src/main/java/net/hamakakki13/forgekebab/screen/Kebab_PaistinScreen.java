@@ -32,6 +32,15 @@ public class Kebab_PaistinScreen extends AbstractContainerScreen<Kebab_PaistinMe
         int y = (height - imageHeight) / 2;
 
         this.blit(pPoseStack, x, y, 0, 0, imageWidth, imageHeight);
+
+        if(menu.isCrafting()) {
+            blit(pPoseStack, x + 81, y + 42, 178, 21, menu.getScaledProgress(), 36);
+        }
+
+        if(menu.hasFuel()) {
+            blit(pPoseStack, x + 10, y + 44 + 1 - menu.getScaledFuelProgress(), 177,
+                    1 - menu.getScaledFuelProgress(), 1, menu.getScaledFuelProgress());
+        }
     }
 
     @Override

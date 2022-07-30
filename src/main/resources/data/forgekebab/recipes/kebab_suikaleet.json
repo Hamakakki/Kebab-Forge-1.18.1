@@ -1,9 +1,10 @@
 {
-  "type": "minecraft:smelting",
+  "type": "forgekebab:kebab_paistoa",
   "ingredient": {
     "item": "forgekebab:kebab_potkilo"
   },
   "result": "forgekebab:kebab_suikaleet",
-  "experience": 2.5,
-  "cookingtime": 1000
-}
+
+ }
+  //"experience": 2.5,
+  //"cookingtime": 1000

@@ -22,12 +22,12 @@ public class Kebab_PaistinMenu extends AbstractContainerMenu {
     private final ContainerData data;
 
     public Kebab_PaistinMenu(int windowId, Inventory inv, FriendlyByteBuf extraData) {
-        this(windowId, inv, inv.player.level.getBlockEntity(extraData.readBlockPos()), new SimpleContainerData(4));
+        this(windowId, inv, inv.player.level.getBlockEntity(extraData.readBlockPos()), new SimpleContainerData(3));
     }
 
     public Kebab_PaistinMenu(int windowId, Inventory inv, BlockEntity entity, ContainerData data) {
         super(ModMenuTypes.KEBAB_PAISTIN_MENU.get(), windowId);
-        checkContainerSize(inv, 4);
+        checkContainerSize(inv, 3);
         blockEntity = ((Kebab_PaistinBlockEntity) entity);
         this.level = inv.player.level;
         this.data = data;
@@ -36,7 +36,7 @@ public class Kebab_PaistinMenu extends AbstractContainerMenu {
         addPlayerHotbar(inv);
 
         this.blockEntity.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY).ifPresent(handler -> {
-            //this.addSlot(new ModFuelSlot(handler, 0, 18, 50));
+            this.addSlot(new ModFuelSlot(handler, 0, 9, 60));
             this.addSlot(new SlotItemHandler(handler, 1, 56, 35));
             //this.addSlot(new SlotItemHandler(handler, 2, 66, 50));
             this.addSlot(new ModResultSlot(handler, 3, 120, 39));
@@ -87,7 +87,7 @@ public class Kebab_PaistinMenu extends AbstractContainerMenu {
     private static final int TE_INVENTORY_FIRST_SLOT_INDEX = VANILLA_FIRST_SLOT_INDEX + VANILLA_SLOT_COUNT;
 
     // THIS YOU HAVE TO DEFINE!
-    private static final int TE_INVENTORY_SLOT_COUNT = 4;  // must be the number of slots you have!
+    private static final int TE_INVENTORY_SLOT_COUNT = 3;  // must be the number of slots you have!
 
     @Override
     public ItemStack quickMoveStack(Player playerIn, int index) {
