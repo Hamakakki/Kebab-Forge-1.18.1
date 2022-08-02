@@ -39,7 +39,7 @@ public class Kebab_PaistinMenu extends AbstractContainerMenu {
             this.addSlot(new ModFuelSlot(handler, 0, 9, 60));
             this.addSlot(new SlotItemHandler(handler, 1, 56, 35));
             //this.addSlot(new SlotItemHandler(handler, 2, 66, 50));
-            this.addSlot(new ModResultSlot(handler, 3, 120, 39));
+            this.addSlot(new ModResultSlot(handler, 3, 118, 37));
         });
 
         addDataSlots(data);

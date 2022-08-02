@@ -22,7 +22,7 @@ public class CraftingItem extends Item {
 
     @Override
     public ItemStack getContainerItem(ItemStack itemStack) {
-        itemStack.hurt(1, new Random(), null);
+       // itemStack.hurt(1, new Random(), null);
         return itemStack;
     }
 

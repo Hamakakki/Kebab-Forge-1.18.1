@@ -17,6 +17,6 @@ public class ModRecipes {
 
     public static void register(IEventBus eventBus) {
         SERIALIZERS.register(eventBus);
-        Registry.register(Registry.RECIPE_TYPE, Kebab_PaistinRecipe.Type.ID, Kebab_PaistinRecipe.Type.INSTANCE);
+     //   Registry.register(Registry.RECIPE_TYPE, Kebab_PaistinRecipe.Type.ID, Kebab_PaistinRecipe.Type.INSTANCE);
     }
 }

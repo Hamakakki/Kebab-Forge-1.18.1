@@ -2,12 +2,8 @@
   "type": "forgekebab:kebab_paistoa",
   "ingredient": [
   {
-    "item": "forgekebab:kebab_potkilo"
+    "item":"forgekebab:kebab_potkilo"
   }
   ],
-  "output":{
-   "forgekebab:kebab_suikaleet"
-  }
+  "output":"forgekebab:kebab_suikaleet"
 }
-  //"experience": 2.5,
-  //"cookingtime": 1000
