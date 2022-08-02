@@ -22,7 +22,7 @@ public class Kebab_PaistinMenu extends AbstractContainerMenu {
     private final ContainerData data;
 
     public Kebab_PaistinMenu(int windowId, Inventory inv, FriendlyByteBuf extraData) {
-        this(windowId, inv, inv.player.level.getBlockEntity(extraData.readBlockPos()), new SimpleContainerData(3));
+        this(windowId, inv, inv.player.level.getBlockEntity(extraData.readBlockPos()), new SimpleContainerData(4));
     }
 
     public Kebab_PaistinMenu(int windowId, Inventory inv, BlockEntity entity, ContainerData data) {

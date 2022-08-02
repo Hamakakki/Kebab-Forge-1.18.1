@@ -97,7 +97,7 @@ public class Kebab_PaistinBlockEntity extends BlockEntity implements MenuProvide
 
     @Override
     public Component getDisplayName() {
-        return new TextComponent("Kebab_Paistin");
+        return new TextComponent("Kebab Paistin");
     }
 
     @Nullable
@@ -130,7 +130,7 @@ public class Kebab_PaistinBlockEntity extends BlockEntity implements MenuProvide
     }
 
     @Override
-    protected void saveAdditional(CompoundTag tag) {
+    protected void saveAdditional(@NotNull CompoundTag tag) {
         tag.put("inventory", itemHandler.serializeNBT());
         tag.putInt("paistin.progress", progress);
         tag.putInt("paistin.fuelTime", fuelTime);
